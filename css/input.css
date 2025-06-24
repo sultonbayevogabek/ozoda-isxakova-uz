@@ -9,12 +9,12 @@ body {
 }
 
 .main-button {
-  background: #0866FF;
+  background: #4A6CF7;
   @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
 }
 
 .submit-button {
-  background: #0866FF;
+  background: #4A6CF7;
   @apply w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-2xl relative overflow-hidden shadow;
 }
 
