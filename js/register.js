@@ -18,7 +18,7 @@
     formData.append(`Foydalanuvchi ID`, statistics.userId);
     formData.append(`Timestamp`, statistics.time?.toString());
 
-    let response = await fetch('https://script.google.com/macros/s/AKfycbw76uh58b83Oa9Q6LTQsRZE8QvBwBk9WLxVSbTD2omnDYLYCn7UeVh7SLsDEs87jTnC/exec', {
+    let response = await fetch('https://script.google.com/macros/s/AKfycbyDmQnQLuyA2aXzcBQYG4BWmPoCB-sRnU_Q3Iofh5837QpiO83r-lx-rDhieqGkBh9X/exec', {
       method: 'POST',
       body: formData
     })
