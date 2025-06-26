@@ -60,7 +60,7 @@ try {
 
   startCountdown(119);
 
-  const statistics = new Statistics();
+  // const statistics = new Statistics();
 
   const registerButtons = document.querySelectorAll('[data-main-button]');
   const modalBackdrop = document.querySelector('[data-modal-backdrop]');
@@ -71,7 +71,7 @@ try {
   registerButtons.forEach(async button => {
     button.addEventListener('click', async () => {
       modalBackdrop.classList.remove('hidden');
-      await statistics.onClickRegBtn();
+      // await statistics.onClickRegBtn();
     })
   })
 
@@ -116,7 +116,7 @@ try {
       submitButton.setAttribute('disabled', true);
       submitButton.textContent = 'Yuborilmoqda...'
 
-      await statistics.onSubmitForm();
+      // await statistics.onSubmitForm();
 
       localStorage.setItem('user', JSON.stringify({
         name, phone: '+998' + phone, time: new Date().toLocaleString()
