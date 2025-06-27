@@ -4,11 +4,6 @@
   // const statistics = new Statistics();
   let user = JSON.parse(localStorage.getItem('user'));
 
-  document.querySelector('#joinToChannel')?.addEventListener('click', async () => {
-    // await statistics.onClickTgBtn();
-    window.location.href = 'https://t.me/+pQ5RHZUO8A1iMmJi';
-  })
-
   if (user && user?.name && user?.phone && user?.time) {
     const formData = new FormData();
 
