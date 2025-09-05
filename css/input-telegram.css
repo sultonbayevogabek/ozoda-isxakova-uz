@@ -6,10 +6,14 @@ body {
   line-height: 1.4;
 }
 
+.bebas {
+  font-family: "Bebas", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 .tg-button {
-  font-family: "Staatliches", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Bebas", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background-color: #279FDB;
-  @apply flex items-center justify-center text-white font-bold h-[70px] rounded-full cursor-pointer text-[28px] relative overflow-hidden shadow;
+  @apply flex items-center justify-center text-white font-bold h-[70px] rounded-full cursor-pointer text-3xl relative overflow-hidden shadow;
 }
 
 /* ShakeX Animation with short pause */
