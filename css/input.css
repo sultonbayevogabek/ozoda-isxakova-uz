@@ -18,6 +18,11 @@ body {
   @apply flex items-center justify-center w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-xl relative overflow-hidden shadow;
 }
 
+.tg-button {
+  background: #24A1DE;
+  @apply flex items-center justify-center w-full text-white font-extrabold h-[70px] rounded-full cursor-pointer text-xl relative overflow-hidden shadow;
+}
+
 .main-button::before {
   content: '';
   position: absolute;
@@ -58,3 +63,29 @@ body {
     transform: rotate(-3deg);
   }
 }
+
+/* ShakeX Animation with short pause */
+@keyframes shakeX-with-pause {
+  /* Shake animation - 33% of the total duration (1s out of 3s) */
+  0%, 33% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  3.3%, 9.9%, 16.5%, 23.1%, 29.7% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  6.6%, 13.2%, 19.8%, 26.4% {
+    transform: translate3d(10px, 0, 0);
+  }
+
+  /* Pause - remaining 67% of duration (2s out of 3s) */
+  33%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-shakeX {
+  animation: shakeX-with-pause 3s ease-in-out infinite;
+}
+
