@@ -36,3 +36,26 @@ body {
     transform: translateX(100%) rotate(45deg);
   }
 }
+
+.gift {
+  transition: transform .3s ease-in-out;
+  animation: .5s ease-in-out infinite shake;
+}
+
+@keyframes shake {
+  0%,to {
+    transform: rotate(0)
+  }
+
+  25% {
+    transform: rotate(-5deg)
+  }
+
+  50% {
+    transform: rotate(5deg)
+  }
+
+  75% {
+    transform: rotate(-3deg)
+  }
+}
