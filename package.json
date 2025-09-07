@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev:index": "tailwindcss --config tailwind.index.config.js -i ./css/input-index.css -o ./css/index.css --watch --minify",
-    "dev:telegram": "tailwindcss --config tailwind.telegram.config.js -i ./css/input-telegram.css -o ./css/telegram.css --watch --minify",
-    "dev:all": "npm run dev:index && npm run dev:telegram"
+    "dev:thankyou": "tailwindcss --config tailwind.thankyou.config.js -i css/input-thankyou.css -o css/thankyou.css --watch --minify",
+    "dev:all": "npm run dev:index && npm run dev:thankyou"
   }
 }

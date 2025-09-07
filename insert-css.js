@@ -8,7 +8,7 @@ const fileMapping = [
     htmlFile: path.join(__dirname, 'index.html')
   },
   {
-    cssFile: path.join(__dirname, 'css', 'telegram.css'),
+    cssFile: path.join(__dirname, 'css', 'thankyou.css'),
     htmlFile: path.join(__dirname, 'thankyou.html')
   }
 ];
