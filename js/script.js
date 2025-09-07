@@ -167,6 +167,6 @@ document.addEventListener('DOMContentLoaded', function () {
       time: new Date().toLocaleString()
     }))
 
-    window.location.href = `../telegram.html`
+    window.location.href = `../thankyou.html`
   })
 });

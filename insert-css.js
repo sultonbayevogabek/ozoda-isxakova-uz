@@ -9,7 +9,7 @@ const fileMapping = [
   },
   {
     cssFile: path.join(__dirname, 'css', 'telegram.css'),
-    htmlFile: path.join(__dirname, 'telegram.html')
+    htmlFile: path.join(__dirname, 'thankyou.html')
   }
 ];
 

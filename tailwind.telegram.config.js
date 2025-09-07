@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    "./telegram.html"  // Faqat telegram.html
+    "./thankyou.html"  // Faqat thankyou.html
   ],
   theme: {
     extend: {}
