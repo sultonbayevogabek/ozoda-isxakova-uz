@@ -11,7 +11,7 @@ body {
 }
 
 .main-button {
-  background: linear-gradient(to bottom, #452B26, #9A5A5E);
+  background-color: #279FDB;
   font-family: "Bebas", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   @apply flex items-center justify-center w-full text-white h-16 rounded-full cursor-pointer text-[32px] relative overflow-hidden shadow;
 }
